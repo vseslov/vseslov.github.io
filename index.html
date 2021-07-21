@@ -20,6 +20,13 @@
     margin-top: 0; /* Убираем отступ сверху */
 
    }
+   #gradient-border {
+     padding: 20px;
+     letter-spacing: 0.2em;
+     border: 1px solid;
+     border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+     border-image-slice: 1;
+   }
    #header { /* Верхний блок */
     padding: 10px; /* Поля вокруг текста */
     background: #373737;
@@ -40,13 +47,13 @@
     background: #373737;
 }
    #footer {
-    position: /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
+    position:  /* Фиксированное положение */
+    left: 0; bottom: 0;/* Левый нижний угол */
     padding: 30px; /* Поля вокруг текста */
     background: #373737;
     color: #f4f4f4; /* Цвет фона */
     color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
+    /*width: 100%;  Ширина слоя */
    }
 
    .nav__item
@@ -72,7 +79,7 @@ a{
   color: white;
 }
 a:hover{
-  color: red;
+  color: blueviolet;
 }
 table.text  {
     width:  50%; /* Ширина таблицы */
@@ -83,14 +90,15 @@ table.text  {
  <body>
   <div class="wrapper">
   <div id="header">
-    <center><h1><img src="https://cdn1.iconfinder.com/data/icons/journalist-4/64/global-news-international-worldwide-current-128.png" style="width: 50px; height: 50px"> VsesloV NEWS</h1>
+    <div id="gradient-border">
+    <center><h1><img src="https://cdn1.iconfinder.com/data/icons/journalist-4/64/global-news-international-worldwide-current-128.png" style="width: 50px; height: 50px"> VsesloV NEWS</h1></div>
     <nav class="nav">
-             <div class="nav__content">
+             <center><div class="nav__content">
                <a href="vseslov.github.io/blob/main/index2.html" class="nav__item nav__item_active">Home</a>
                <a href="#" class="nav__item">Blog</a>
                <a href="#" class="nav__item">About</a>
                <a href="#" class="nav__item">Contacts</a>
-             </div>
+             </div></center>
     </nav>
   </div>
   <div id="sidebar">
@@ -121,7 +129,7 @@ table.text  {
     
   </div>
   <div id="footer"> 
-    <p><a href="vseslov.github.io" style="margin-left: 20px; font-size: 35px">VsesloV news</a> </p> 
+    <p><a href="vseslov.github.io" style="margin-left: 20px; font-size: 35px">VsesloV NEWS</a> </p> 
              <P style="margin-left: 60px; color: silver">Рассказываем о важных <br>
                событиях в мире автомобилей</P>
 
