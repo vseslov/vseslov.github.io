@@ -25,7 +25,9 @@
     background: #373737;
    }
    #footer {
-    position: fixed; /* Фиксированное положение */
+    /*position: fixed;  Фиксированное положение */
+    position: absolute;
+    height: 80px;
     left: 0; bottom: 0;/* Левый нижний угол */
     padding: 30px; /* Поля вокруг текста */
     background: #373737;
