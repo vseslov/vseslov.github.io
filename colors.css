@@ -1,5 +1,4 @@
- body {
-    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
     margin: 0; /* Отступы на странице */
     background: #111;
     color: #f4f4f4;
@@ -11,6 +10,14 @@
    }
    h2 {
     margin-top: 0; /* Убираем отступ сверху */
+
+   }
+   #gradient-border {
+     padding: 20px;
+     letter-spacing: 0.2em;
+     border: 1px solid;
+     border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+     border-image-slice: 1;
    }
    #header { /* Верхний блок */
     padding: 10px; /* Поля вокруг текста */
@@ -30,13 +37,17 @@
     border: 1px solid #333; /* Параметры рамки */
     color: #f4f4f4;
     background: #373737;
-   }
-   #footer { /* Нижний блок */
-    background: #333; /* Цвет фона */
-    padding: 5px; /* Поля вокруг текста */
+}
+   #footer {
+    position:  /* Фиксированное положение */
+    left: 0; bottom: 0;/* Левый нижний угол */
+    padding: 30px; /* Поля вокруг текста */
+    background: #373737;
+    color: #f4f4f4; /* Цвет фона */
     color: #fff; /* Цвет текста */
-    clear: left; /* Отменяем действие float */
+    /*width: 100%;  Ширина слоя */
    }
+
    .nav__item
 {
     display: inline-block;
@@ -56,3 +67,13 @@
 {
     background: #444;
 }
+a{
+  color: white;
+}
+a:hover{
+  color: blueviolet;
+}
+table.text  {
+    width:  50%; /* Ширина таблицы */
+    border-spacing: 0; /* Расстояние между ячейками */
+   }
