@@ -1,13 +1,7 @@
-   #gradient-border {
-     padding: 20px;
-     letter-spacing: 0.2em;
-     border: 1px solid;
-     border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
-     border-image-slice: 1;
-   }
+
    #header { /* Верхний блок */
     padding: 10px; /* Поля вокруг текста */
-    background: #373737;
+    background: #FFFFF4;
     color: #f4f4f4; /* Цвет фона */
    }
    #sidebar { /* Левая колонка */
@@ -18,35 +12,37 @@
     margin: 10px 10px 20px 5px; /* Значения отступов */
    }
    #content { /* Правая колонка */
-    margin: 10px 5px 20px 25%; /* Значения отступов */
+    margin: 10px 100px 500px 100px; /* Значения отступов */
     padding: 5px; /* Поля вокруг текста */
     border: 1px solid #333; /* Параметры рамки */
     color: #f4f4f4;
-    background: #373737;
+    background: #FFFFF4;
    }
    #footer {
-    /*position: fixed;  Фиксированное положение */
-    position: absolute;
-    height: 80px;
+    position: ; /* Фиксированное положение */
     left: 0; bottom: 0;/* Левый нижний угол */
-    padding: 30px; /* Поля вокруг текста */
-    background: #373737;
-    color: #f4f4f4; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    background: #FFFFF4;
     color: #fff; /* Цвет текста */
     /*width: 100%;  Ширина слоя */
    }
    .nav__item{
     display: inline-block;
     vertical-align: middle;
-    padding: 15px 25px;
+    padding: 5px 25px;
     margin: 2px;
+    margin-left: 30px;
     cursor: pointer;
     text-decoration: none;
+    border-radius: 10px;
    }
   .nav__item{
-    color: #f4f4f4;
-    background: #373737;
+    color: black;
+    background: #CCCCC3;
    }
+  .nav__content{
+
+  }
   .nav__item:hover, .nav__item_active{
-    background: #444;
+    background: #FCE196;
    }
