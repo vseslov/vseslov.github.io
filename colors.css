@@ -1,4 +1,13 @@
 
+   body{
+     font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+    background: white;
+    color: black;
+
+
+   }
+   
    #header { /* Верхний блок */
     padding: 10px;
     padding-right: 10px; /* Поля вокруг текста */
