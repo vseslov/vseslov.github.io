@@ -9,67 +9,58 @@
      body{
      font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
     margin: 0; /* Отступы на странице */
-    background: #FFFFF4;
+    background: white;
     color: black;
-   }  
-   p{
-    color: black;
-    font-size: 13px;
-   }
-   h1 {
-    font-size: 36px; /* Размер шрифта */
-    margin: 0; /* Убираем отступы */
-    color: black ; /* Цвет текста */
-   }
-   h2 {
-    margin-top: 0; /* Убираем отступ сверху */
-  }
-  h3{
-    color: black;
-  }
-    a{
-   color: black;
-  }
-    a:hover{
-   /*color: blueviolet;*/
-  }
 
+
+   } 
   </style>
  </head>
  <body>
   <div class="wrapper">
   <div id="header">
-    <center><h1><img src="https://cdn1.iconfinder.com/data/icons/journalist-4/64/global-news-international-worldwide-current-128.png" style="width: 50px; height: 50px"> VsesloV NEWS</h1></div>
-    <nav class="nav">
-             <center><div class="nav__content">
-               <a href="index.html" class="nav__item nav__item_active">Home</a>
-               <a href="#" class="nav__item">Blog</a>
-               <a href="about.html" class="nav__item">About</a>
-               <a href="#" class="nav__item">Contacts</a>
-             </div></center>
+
+    <nav class="nav nav__content">
+
+    <a href="index.html" style="font-size: 40px;">
+      <img src="https://cdn1.iconfinder.com/data/icons/journalist-4/64/global-news-international-worldwide-current-128.png" style="width: 50px; height: 50px"> VsesloV NEWS</a>
+    
+             
+               <a href="index.html" class="nav__item nav__item_active">Главная</a>
+               <a href="#" class="nav__item">Блог</a>
+               <a href="about.html" class="nav__item">О нас</a>
+               <a href="contacts.html" class="nav__item">Контакты</a>
+             
     </nav>
   </div>
+
+  <div id="sidebar">
+    <center><p><a href="#" class="text">Актуальное</a></p>
+    <p><a href="#" class="text">Спорт</a></p>
+    <p><a href="#" class="text">Авто</a></p>
+    <p><a href="#" class="text">Технологии</a></p></center>
+  </div>
+
   <div id="content">
    <h1>Привет!</h1>
    <h3>
      Ты попал на мою страницу где я буду учиться веб-программированию, а в дальнейшем и веб-дизайну. Первое время здесь не будет прям вау элементов и вращающихся кнопочек, но у меня все впереди и мы верим в это ✊🏻 Главное не cдаваться!
    </h3>
+   
    <p>
     С уважением,<br>
     автор будущего проэкта под названием "VsesloV NEWS"<br>
     Дерев'янко Вячеслав 
    </p>
-    
   </div>
+  
   <div id="footer"> 
     <p><a href="vseslov.github.io" style="margin-left: 20px; font-size: 35px">VsesloV NEWS</a>   </p>     
     <p style="margin-left: 60px; color: #808080">Рассказываем о важных<br>
                событиях в мире технологий</p> 
-    
-    <a style="margin-left: 60px" title="Telegram" href="https://t.me/unregisters" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/335_Telegram_logo-128.png" width="40" height="40"></a>
-    <a style="margin-left: 20px" title="Instagram" href="https://www.instagram.com/_vseslov_/" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-128.png" width="40" height="40"></a>
-    <b style="color: #808080"> <center>2021 &copy; Derevianko Viacheslav</center> </b>
+    <b style="color: #808080"> <center>2021 &copy; Derevianko Viacheslav</center> </b> 
    
   </div>
+  <script src="myscript.js"></script>
  </body>
 </html>
